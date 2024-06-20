@@ -1,6 +1,31 @@
 # Deep Q-Network (DQN) Implementation and Training for Reinforcement Learning
 
-This repository contains the Jupyter notebook for Programming Assignment 3. The assignment focuses on implementing a specific part of a deep Q-network (DQN) training script. Follow the instructions below to set up and run the notebook.
+This repository contains the Jupyter notebook for Programming Assignment 3. The assignment focuses on implementing and training a deep Q-network (DQN), a type of reinforcement learning algorithm. Follow the instructions below to set up and run the notebook.
+
+## Project Overview
+
+### Description
+
+The goal of this project is to implement a Deep Q-Network (DQN) for a reinforcement learning task. DQNs are a type of deep learning model used to solve problems where an agent learns to make decisions by interacting with an environment. The key components of this project include:
+
+1. **Understanding DQN**: Learning the theoretical aspects of DQN, including how it approximates Q-values using neural networks.
+2. **Implementation**: Implementing the DQN algorithm from scratch, including the neural network architecture, experience replay mechanism, and target network updates.
+3. **Training**: Training the DQN on a given environment to learn an optimal policy for decision-making.
+4. **Testing and Evaluation**: Evaluating the performance of the trained model and understanding its behavior.
+
+### Significance
+
+Deep Q-Networks are significant in the field of artificial intelligence and machine learning for several reasons:
+
+1. **Breakthrough in Reinforcement Learning**: DQNs were a major breakthrough in reinforcement learning, demonstrating that deep neural networks can be used to approximate complex policies and value functions.
+2. **Wide Applicability**: DQNs can be applied to various tasks, including game playing, robotic control, and autonomous driving.
+3. **Foundation for Advanced Algorithms**: Understanding and implementing DQNs provides a foundation for more advanced reinforcement learning algorithms like Double DQN, Dueling DQN, and Deep Deterministic Policy Gradient (DDPG).
+
+## File Structure
+
+- `PA3.ipynb`: The main Jupyter notebook containing the assignment instructions, code cells, and markdown documentation.
+- `Layers.py`: Contains the code for different layers used in the DQN model.
+- `DQN.py`: The script for setting up and training the deep Q-network.
 
 ## Setup Instructions
 
@@ -19,12 +44,6 @@ This repository contains the Jupyter notebook for Programming Assignment 3. The 
      ```
      - Press the stop button on the cell, and it will continue running.
 
-## File Structure
-
-- `PA3.ipynb`: The main Jupyter notebook containing the assignment instructions, code cells, and markdown documentation.
-- `Layers.py`: Contains the code for different layers used in the DQN model.
-- `DQN.py`: The script for setting up and training the deep Q-network.
-
 ## How to Run
 
 1. Open the `PA3.ipynb` notebook in Jupyter.
@@ -36,7 +55,3 @@ This repository contains the Jupyter notebook for Programming Assignment 3. The 
 
 - Make sure all dependencies are installed before running the notebook.
 - If you encounter any issues, refer to the assignment instructions and ensure you have followed all setup steps correctly.
-
-## Contact
-
-For any questions or issues, please contact your instructor or refer to the course materials.
